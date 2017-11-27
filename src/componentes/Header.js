@@ -50,7 +50,7 @@ class Header extends React.Component{
     render(){
         return(
             <Contenedor>
-            <h3>That`s My Movie</h3>
+            <h3>Esta es mi Pelicula</h3>
             {this.props.path === "/" && 
             <Search 
                 onChangeSearch = {this.onChangeSearch}
